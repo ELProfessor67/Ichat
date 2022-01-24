@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#fff,purple);
+    min-height: 100vh;
+}
+
+.wel-text{
+    margin: 5px;
+    text-align: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.container{
+    max-width: 70%;
+    height: 70vh;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    padding: 3px;
+    overflow-y: auto;
+}
+
+.message{
+    background: grey;
+    margin: 3px 2px;
+    padding: 8px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.message.right {
+    float: right;
+    clear: both;
+}
+
+.message.left {
+    float: left;
+    clear: both;
+}
+
+#send-container{
+    max-width: 70%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 8px;
+    position: relative;
+}
+
+#messageInp{
+    width: 90%;
+    height: 34px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn{
+    cursor: pointer;
+    width: 8%;
+    height: 34px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+footer{
+    width: 100vw;
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:800px) {
+    #messageInp{
+        width: 80%;
+    }
+    .btn{
+        width: 17%;
+    }
+    footer{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:240px){
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .wel-text{
+        font-size: 15px;
+    }
+    .container{
+        height: 65vh;
+    }
+    #messageInp{
+        height: 25px;
+    }
+    .btn{
+        height: 25px;
+    }
+    footer{
+        font-size: .7rem;
+    }
+}
