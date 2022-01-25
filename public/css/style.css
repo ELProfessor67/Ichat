@@ -58,6 +58,9 @@ body{
     text-align: center;
     margin-top: 8px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #messageInp{
@@ -87,10 +90,14 @@ footer{
         width: 80%;
     }
     .btn{
-        width: 17%;
+        width: 20%;
     }
     footer{
         font-size: 1rem;
+    }
+    .container{
+        max-width: 90%;
+
     }
 }
 

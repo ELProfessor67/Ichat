@@ -38,5 +38,5 @@ socket.on('receive',(data)=>{
 });
 
 socket.on('left',(data)=>{
-    append(`${data} left the chat`,'left');
+    append(`${data}: left the chat`,'left');
 });
