@@ -2,10 +2,7 @@ const express = require('express');
 const { Server } = require('http');
 const app = express();
 const path = require('path');
-const { Socket } = require('socket.io');
 
-// we will run Socket.io Server
-require('./chat');
 
 const port = process.env.PORT || 3000;
 
