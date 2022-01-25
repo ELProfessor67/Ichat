@@ -21,6 +21,10 @@ app.get('/',(req,res)=>{
     res.render('index');
 });
 
+app.get('*',(req,res)=>{
+    res.render('index');
+});
+
 // server listen
 app.listen(port,()=>{
     console.log(`http://127.0.0.1:${port}`);
